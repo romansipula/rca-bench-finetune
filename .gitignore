@@ -1,0 +1,11 @@
+# never commit data, weights, tokens
+*.jsonl
+!responses_*_test.jsonl
+data/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+kaggle.json
+.env
+__pycache__/
